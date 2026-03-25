@@ -1,0 +1,21 @@
+name = "ai-invoice"
+main = "src/index.ts"
+compatibility_date = "2024-12-30"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+APP_NAME = "AI Invoice"
+APP_URL = "https://ai-invoice.thomasgorisse.workers.dev"
+
+# KV namespace for storing invoices and user data
+# Create with: wrangler kv namespace create INVOICES
+# [[kv_namespaces]]
+# binding = "INVOICES"
+# id = "your-kv-namespace-id"
+
+# Stripe webhook secret
+# [vars]
+# STRIPE_WEBHOOK_SECRET = ""
+
+# [secrets]
+# STRIPE_SECRET_KEY
