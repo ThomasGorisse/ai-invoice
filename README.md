@@ -33,7 +33,7 @@ curl -X POST http://localhost:8787/generate \
   -H "Content-Type: application/json" \
   -d '{
     "emitter": {
-      "name": "Thomas Gorisse",
+      "name": "SceneView Tools",
       "address": "12 rue de la Loire",
       "city": "Nantes",
       "zip": "44000",
